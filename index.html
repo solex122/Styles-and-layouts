@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css" />
+    <title>Exploring Styles and Layouts for Solomon Peter Gajereson</title>
+    <style>
+        .container{
+            display: grid;
+            background-color: #800000;
+            grid-template-columns: 150px 150px 150px;
+            padding: 20px;
+            grid: gap 20px;
+            width: 40%;
+        }
+        .container > div{
+            background-color: #dcdcdc;
+            border: 20px solid #696969;
+            padding: 35px;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .first-container{
+            display: flex;
+            height: 150px;
+            flex-wrap: wrap;
+            align-content: flex-end;
+            overflow: scroll;
+            background-color: cadetblue;
+            width: 40%;
+            padding-left: 35px;
+        }
+        .first-container >div{
+            background-color: chocolate;
+            width: 50px;
+            margin: 20px;
+            text-align: center;
+            line-height: 60px;
+            font-size: 20px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Game Board</h1>
+    <div class="first-container">
+        <div class="flex1">X</div>
+        <div class="flex2">Y</div>
+        <div class="flex3">Z</div>
+    </div>
+    <dive class="container">
+        <div class="grid1">Lion</div>
+        <div class="grid2">Hippo</div>
+        <div class="grid3">Leo</div>
+        <div class="grid4">Hyen</div>
+        <div class="grid5">Tiger</div>
+        <div class="grid6">Rhino</div>
+        <div class="grid4">Eagle</div>
+        <div class="grid5">Wolf</div>
+        <div class="grid6">Wolf</div>
+    </dive>
+    <footer>
+     <a href="" >Step by step method of playing Game board</a>
+    </footer>
+    
+</body>
+</html>
